@@ -3,7 +3,7 @@ import { Bookmark, Compass, Home, Search, Bell, PenLine, ChevronRight, Heart, Me
 type Story={category:string;title:string;excerpt:string;author:string;date:string;read:string;image:string;avatar:string;kind:string};
 const stories:Story[]=[
 {category:'CULTURE',title:'The quiet art of starting over',excerpt:'Sometimes the bravest thing you can do is begin again, without needing to explain why.',author:'Maya Sen',date:'Today',read:'6 min read',image:'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1100&q=85',avatar:'MS',kind:'Essay'},
-{category:'CREATIVITY',title:'Make room for the work that matters',excerpt:'A gentler approach to focus, creative energy, and making something you are proud of.',author:'Arjun Mehta',date:'Yesterday',read:'8 min read',image:'https://images.unsplash.com/photo-1455390582262-044cnear?auto=format&fit=crop&w=1000&q=80',avatar:'AM',kind:'Article'},
+{category:'CREATIVITY',title:'Make room for the work that matters',excerpt:'A gentler approach to focus, creative energy, and making something you are proud of.',author:'Arjun Mehta',date:'Yesterday',read:'8 min read',image:'https://images.unsplash.com/photo-1455390582262-044c355e2a6c?auto=format&fit=crop&w=1000&q=80',avatar:'AM',kind:'Article'},
 {category:'FICTION',title:'A letter from the last train',excerpt:'At 11:48 every night, the same empty train arrived with one passenger more than it left with.',author:'Ira Kapoor',date:'Nov 11',read:'12 min read',image:'https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=1000&q=85',avatar:'IK',kind:'Short story'}];
 const topics=['For you','Following','Design','Technology','Life','Fiction','Business'];
 export default function App(){
