@@ -1,11 +1,11 @@
 {
-  "name": "Forward — Stories worth staying for",
-  "short_name": "Forward",
+  "name": "Forword — Stories worth staying for",
+  "short_name": "Forword",
   "description": "A home for thoughtful articles, short stories and novels.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f7f2",
-  "theme_color": "#293e34",
+  "background_color": "#f7f7f5",
+  "theme_color": "#ffcc00",
   "icons": [
     {
       "src": "/icon.svg",
