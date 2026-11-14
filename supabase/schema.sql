@@ -19,6 +19,7 @@ create table if not exists public.posts (
   body text not null default '',
   category text not null default 'LIFE',
   content_type text not null default 'Article' check (content_type in ('Article','Short story','Novel')),
+  language text not null default 'English' check (language in ('Hindi','English')),
   status text not null default 'draft' check (status in ('draft','published','archived')),
   cover_image_url text,
   read_time integer not null default 1,
@@ -26,6 +27,8 @@ create table if not exists public.posts (
   updated_at timestamptz not null default now(),
   published_at timestamptz
 );
+
+alter table public.posts add column if not exists language text not null default 'English';
 
 create index if not exists posts_status_published_idx on public.posts(status,published_at desc);
 create index if not exists posts_author_idx on public.posts(author_id,created_at desc);
