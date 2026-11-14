@@ -10,3 +10,20 @@
 @media(max-width:650px){.writer-panel{padding:16px;border-radius:17px}.writer-row{grid-template-columns:1fr;gap:0}.writer-type button{flex:1;justify-content:center;padding:12px 7px}.writer-footer{align-items:stretch;flex-direction:column}.writer-footer .yellow-cta{justify-content:center}.writer-panel textarea{min-height:210px}}
 
 .chapter-manager{background:#fff;border:1px solid #eee;border-radius:17px;padding:18px;margin:18px 0}.chapter-manager h3{font:800 15px Manrope;margin:0 0 12px}.chapter-manager input,.chapter-manager textarea{display:block;width:100%;border:1px solid #e9e7df;border-radius:11px;padding:12px;margin:9px 0;font:13px 'DM Sans',sans-serif;outline:none}.chapter-manager textarea{line-height:1.7;resize:vertical}.chapter-manager .yellow-cta{margin-top:6px}
+
+/* Forword Tapas-inspired finishing pass */
+:root{--forword-yellow:#ffcc00;--forword-ink:#101010;--forword-paper:#f7f7f5}
+.manga-app{background:var(--forword-paper);color:var(--forword-ink)}
+.desktop-side{box-shadow:5px 0 28px rgba(0,0,0,.025)}
+.wordmark{letter-spacing:-2px}
+.wordmark i{color:var(--forword-yellow)}
+.yellow-cta,.side-discover,.genre-chips button.active,.writer-type button.active{background:var(--forword-yellow);border-color:var(--forword-yellow);color:#111}
+.hero-banner,.detail-hero{box-shadow:0 14px 38px rgba(0,0,0,.08)}
+.series-card img{background:#eeece6;box-shadow:0 5px 16px rgba(0,0,0,.045)}
+.series-card:focus-visible,.yellow-cta:focus-visible,.side-nav:focus-visible{outline:3px solid #e5b900;outline-offset:3px}
+.search-bar:focus-within,.writer-panel input:focus,.writer-panel select:focus,.writer-panel textarea:focus{border-color:#d8ae00;box-shadow:0 0 0 3px rgba(255,204,0,.16)}
+.reader-screen{background:#fff;border:1px solid #eee;border-radius:22px;padding:20px 26px;box-shadow:0 12px 36px rgba(0,0,0,.035)}
+.reader-page{font-family:Georgia,'Noto Serif Devanagari',serif}
+.reader-page p{white-space:pre-wrap}
+.bottom-nav{box-shadow:0 -7px 25px rgba(0,0,0,.035)}
+@media(max-width:650px){.reader-screen{border:0;border-radius:0;padding:8px 3px;box-shadow:none;background:transparent}.reader-page{font-family:Georgia,'Noto Serif Devanagari',serif}.mobile-header{box-shadow:0 3px 15px rgba(0,0,0,.025)}}
